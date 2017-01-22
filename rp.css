@@ -1,0 +1,236 @@
+body {
+  background-color:#b6d6fc;
+  color:#000046;
+  font-size: 14px;
+  font-family: "Gill Sans Light", "GillSans Light", Corbel, "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color:#d39104;
+  text-decoration:none;
+}
+
+#header {
+  background-color:white;
+  border-bottom:3pt solid #b6d6fc;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width:50em;
+}
+
+#banner {
+  border: none;
+}
+
+#content {
+  background-color:white;
+  border-top:2pt solid #d35f0c;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:5pt;
+  width:50em;
+}
+
+#footer {
+  border-top:1pt solid black;
+  clear:both;
+  font-size:12px;
+  text-align:center;
+  padding: 0.5em 0 0.5em 0;
+  width:100%;
+}
+
+#marquee {
+  border:1pt solid #0491d3;
+  color:#0491d3;
+  font-weight:bold;
+  padding:3pt;
+  text-align:center;
+  width:100%;
+}
+
+#menu {
+  padding: 1pt 0 1pt 0.5em;
+  float:left;
+  line-height: 110%;
+}
+
+#menu UL {
+  font-size:11px;
+  font-weight: bold;
+  list-style-type:none;
+  margin-left:1em;
+  padding-left:0;
+}
+
+#menu UL A {
+  color:#d35f0c;
+}
+
+#menu UL UL A {
+  color:#d39104;
+}
+
+#menu UL A:hover { 
+  text-decoration: underline;
+}
+
+#main {
+  float:left;
+  padding:0.5em 0.5em 0.5em 1em;
+  line-height: 130%;
+  width: 36em;
+}
+
+#frame {
+  border-spacing:0pt;
+  float:left;
+  height:100%;
+  padding:5pt 0pt 0pt 5pt;
+}
+
+#frame .left {
+  border-right:2pt solid #d39104;
+  color:#d39104;
+  empty-cells:hide;
+  height:2em;
+  padding-right:5pt;
+  text-align:right;
+  vertical-align:top;
+  white-space: nowrap;
+  font-variant: small-caps;
+}
+
+#menu UL, .left {
+  font-family: "Gill Sans", GillSans, Corbel, sans-serif;
+}
+
+TH.left { 
+  text-transform: uppercase;
+}
+
+#frame TH.right {
+  color:#d39104;
+  font-weight:normal;
+  padding-left:5pt;
+  text-align:left;
+  text-transform:uppercase;
+  vertical-align:bottom;
+}
+
+#frame TD.right {
+  padding: 5pt 0pt 5pt 5pt;
+}
+
+#frame TD.right P {
+  margin-right: 5pt;
+}
+
+#frontpagetext {
+  clear:right;
+  float:right;
+  padding: 5pt 0pt 0pt 5pt;
+  text-align:justify;
+  width:100%;
+}
+
+#talkphoto {
+  background-image:url(images/lecture.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  border:1pt solid black;
+  _border:none;
+  height:300px;
+  margin:5pt auto 5pt auto;
+  max-width:500px;
+}
+
+
+
+form th { 
+  text-align: right;
+  vertical-align: top;
+}
+
+form, .abstract, .bio, #schedule td {
+  font-size: 90%;
+  
+}
+
+.section_title {
+  color:#d35f0c;
+  font-size:18px;
+  margin: 1em 0 1em 0;
+  text-transform:uppercase;
+}
+
+.section {
+  margin-left:5pt;
+}
+
+.talktitle {
+  color:#d35f0c;
+  text-transform:uppercase;
+}
+
+.abstract, .bio {
+  margin-left:15pt;
+}
+
+.speakername {
+  color:#d39104;
+  margin-left:10pt;
+  text-transform:uppercase;
+}
+
+.top {
+  font-size: 80%;
+  text-align: right;
+  border-bottom: 2pt solid #d38045;  
+}
+
+#schedule th {
+  text-align:left;
+  border-bottom: 1pt solid black;
+  padding: 0.2em 0.5em;
+}
+
+#schedule th.day {
+  border-bottom:2pt solid black;
+  padding: 1em 0pt 0.5em 0pt;
+  text-align:center;
+}
+
+#schedule td, #schedule th {
+  line-height: 1.4em;
+}
+
+#schedule td {
+  padding: 0.2em 0.6em;
+  border-bottom: 1pt solid #ddd;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+#schedule .time { 
+  font-variant: small-caps;
+  text-align: right;
+  min-width: 5em;
+}
+
+#videos th {
+  text-align:left;
+  padding-right:30pt;
+}
+
+sup {
+  font-size: 70%;
+}
+
+table.speakers, #schedule { 
+  border-collapse: collapse;
+} 
